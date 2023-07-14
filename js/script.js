@@ -26,14 +26,13 @@ playBtn.addEventListener('click', function () {
         tand8.style.display = 'block'
         tand9.style.display = 'block'
         tand10.style.display = 'block'
-        // tanden.style.opacity= '0'
     } else if (play === false) {
         play = true;
 
         krokDicht.style.display = 'block'
         krokOpen.style.display = 'none'
         tanden1.style.display = 'none'
-        // hap.style.display = 'block'
+        hap.style.display = 'none'
     }
 });
 

@@ -304,6 +304,7 @@ header {
     position: absolute;
 }
 
+/* desktop  */
 .tand1 {
     top: 111%;
     left: 30%;
@@ -354,7 +355,8 @@ header {
     left: 59%;
 }
 
-@media all and (max-width: 900px) {
+/* SE */
+@media all and (max-width: 376px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
@@ -433,6 +435,172 @@ header {
         left: 50%;
     }
 }
+
+/* 12 Pro */
+@media all and (max-width: 391px) {
+    .krok-container h2 {
+        font-size: 100px;
+        top: 30%;
+        left: 38%;
+    }
+
+    .play {
+        width: 75px;
+        height: 75px;
+        margin-left: 40%;
+    }
+
+    .krok-container img {
+        scale: 0.2;
+    }
+
+    .krokDicht {
+        margin: -500px 0 0 -615px;
+    }
+
+    .krokOpen {
+        margin: -850px 0 0 -480px;
+    }
+
+    .tanden img {
+        scale: 0.20;
+    }
+
+    .tand1 {
+        top: 80%;
+        left: 0;
+    }
+
+    .tand2 {
+        top: 86%;
+        left: 0;
+    }
+
+    .tand3 {
+        top: 93%;
+        left: 0;
+    }
+
+    .tand4 {
+        top: 99%;
+        left: 7%;
+    }
+
+    .tand5 {
+        top: 100%;
+        left: 19%;
+    }
+
+    .tand6 {
+        top: 100%;
+        left: 31%;
+    }
+
+    .tand7 {
+        top: 99%;
+        left: 43%
+    }
+
+    .tand8 {
+        top: 93%;
+        left: 50%;
+    }
+
+    .tand9 {
+        top: 86%;
+        left: 50%;
+    }
+
+    .tand10 {
+        top: 80%;
+        left: 50%;
+    }
+}
+
+/* 11 & XR */
+@media all and (max-width: 415px) {
+    .krok-container h2 {
+        font-size: 100px;
+        top: 30%;
+        left: 38%;
+    }
+
+    .play {
+        width: 75px;
+        height: 75px;
+        margin-left: 40%;
+    }
+
+    .krok-container img {
+        scale: 0.2;
+    }
+
+    .krokDicht {
+        margin: -500px 0 0 -600px;
+    }
+
+    .krokOpen {
+        margin: -850px 0 0 -460px;
+    }
+
+    .tanden img {
+        scale: 0.20;
+    }
+
+    .tand1 {
+        top: 62%;
+        left: 2%;
+    }
+
+    .tand2 {
+        top: 67%;
+        left: 2%;
+    }
+
+    .tand3 {
+        top: 72%;
+        left: 2.5%;
+    }
+
+    .tand4 {
+        top: 74%;
+        left: 10%;
+    }
+
+    .tand5 {
+        top: 75%;
+        left: 21%;
+    }
+
+    .tand6 {
+        top: 75%;
+        left: 33%;
+    }
+
+    .tand7 {
+        top: 74%;
+        left: 43%
+    }
+
+    .tand8 {
+        top: 72%;
+        left: 51%;
+    }
+
+    .tand9 {
+        top: 67%;
+        left: 51%;
+    }
+
+    .tand10 {
+        top: 62%;
+        left: 51%;
+    }
+}
+
+
+
+
 
 
 
