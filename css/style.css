@@ -354,7 +354,7 @@ header {
     left: 59%;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 900px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
