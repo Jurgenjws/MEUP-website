@@ -1,0 +1,371 @@
+body {
+    background-color: #1f1f1f;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #1f1f1f;
+    border-bottom: solid 5px;
+    border-color: white;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.nav-header {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    translate: -50% -50%;
+}
+
+.nav-header li {
+    display: inline;
+}
+
+.nav-header button {
+    background-color: transparent;
+    border: none;
+    margin: 5px 40px 5px 40px;
+    cursor: pointer;
+}
+
+.nav-header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+.nav-header button:hover {
+    opacity: 50%;
+}
+
+.nav-header img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -78px;
+    left: -40%;
+}
+
+@media all and (max-width: 1320px) {
+    .nav-header button {
+        margin: 5px 25px 5px 25px;
+    }
+
+    .nav-header a {
+        font-size: 25px;
+    }
+
+    .nav-header img {
+        height: 150px;
+        width: 150px;
+        top: -50px;
+        left: -30%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .nav-header button {
+        margin: 5px 15px 5px 15px;
+    }
+
+    .nav-header a {
+        font-size: 20px;
+    }
+
+    .nav-header img {
+        height: 125px;
+        width: 125px;
+        left: -45%;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .nav-header button {
+        margin: 5px 50px 5px 50px;
+    }
+
+    .nav-header img {
+        top: -35px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .nav-header img {
+        top: -15px;
+    }
+}
+
+
+
+
+
+.home-container {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-container img {
+    position: absolute;
+}
+
+.intro-rad,
+.intro-krok,
+.intro-pubquiz {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.intro-rad a,
+.intro-krok a,
+.intro-pubquiz a {
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.intro-rad p,
+.intro-krok p,
+.intro-pubquiz p {
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+@media all and (max-width: 1200px) {
+
+    .intro-rad p,
+    .intro-krok p,
+    .intro-pubquiz p {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    .intro-rad p,
+    .intro-krok p,
+    .intro-pubquiz p {
+        font-size: 15px;
+    }
+}
+
+.intro-rad img {
+    scale: 0.12;
+    top: -1100px;
+    right: -1050px;
+    z-index: -1;
+}
+
+.intro-krok img {
+    scale: 0.18;
+    top: -500px;
+    right: -600px;
+    z-index: -1;
+}
+
+.intro-pubquiz img {
+    scale: 0.2;
+    top: -250px;
+    right: -600px;
+    z-index: -1;
+}
+
+@media all and (max-width: 1320px) {
+    .intro-rad img {
+        scale: 0.1;
+    }
+
+    .intro-krok img {
+        scale: 0.15;
+    }
+
+    .intro-pubquiz img {
+        scale: 0.18;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .intro-rad img {
+        scale: 0.07;
+        top: -1150px;
+    }
+
+    .intro-krok img {
+        scale: 0.12;
+        top: -600px;
+    }
+
+    .intro-pubquiz img {
+        scale: 0.15;
+        top: -350px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .intro-rad img {
+        scale: 0.06;
+        top: -1100px;
+        right: -1100px;
+    }
+
+    .intro-krok img {
+        scale: 0.09;
+        top: -550px;
+        right: -650px;
+    }
+
+    .intro-pubquiz img {
+        scale: 0.1;
+        top: -300px;
+        right: -650px;
+    }
+}
+
+
+
+
+
+/* krokodil */
+.krok-container {
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.krok-container h2 {
+    font-size: 300px;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    z-index: 2;
+    display: none;
+}
+
+.play {
+    width: 125px;
+    height: 125px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4bad33;
+    margin-left: 46%;
+    cursor: pointer;
+}
+
+.play:hover {
+    opacity: 75%;
+}
+
+.krok-container img {
+    scale: 0.5;
+}
+
+.krokDicht {
+    margin: -300px auto 0 auto;
+    display: block;
+}
+
+.krokOpen {
+    margin: -500px auto 0 auto;
+    display: none;
+}
+
+/* tanden  */
+.tanden {
+    display: none;
+}
+
+.tanden img {
+    scale: 0.55;
+}
+
+.tand1,
+.tand2,
+.tand3,
+.tand4,
+.tand5,
+.tand6,
+.tand7,
+.tand8,
+.tand9,
+.tand10 {
+    /* background-color: red; */
+    /* height: 85px;
+    width: 85px; */
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.tand1 {
+    top: 111%;
+    left: 30%;
+}
+
+.tand2 {
+    top: 123%;
+    left: 30%;
+}
+
+.tand3 {
+    top: 135%;
+    left: 29.5%;
+}
+
+.tand4 {
+    top: 144%;
+    left: 32.5%;
+}
+
+.tand5 {
+    top: 147%;
+    left: 49%;
+}
+
+.tand6 {
+    top: 147%;
+    left: 40%;
+}
+
+.tand7 {
+    top: 144%;
+    left: 56%
+}
+
+.tand8 {
+    top: 135%;
+    left: 59.5%;
+}
+
+.tand9 {
+    top: 123%;
+    left: 59%;
+}
+
+.tand10 {
+    top: 111%;
+    left: 59%;
+}
+
+
+
+
+
+footer {
+    height: 100px;
+    border-top: solid 5px;
+    border-color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
