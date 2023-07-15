@@ -6,8 +6,6 @@ header {
     width: 100%;
     height: 200px;
     background-color: #1f1f1f;
-    border-bottom: solid 5px;
-    border-color: white;
     position: relative;
     margin-bottom: 50px;
 }
@@ -98,10 +96,17 @@ header {
     }
 }
 
+main {
+    height: 100vh;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-color: white;
+}
 
 
 
 
+/* home  */
 .home-container {
     width: 60%;
     margin: 0 auto;
@@ -258,6 +263,7 @@ header {
     border: none;
     border-radius: 50%;
     background-color: #4bad33;
+    margin-top: 50px;
     margin-left: 46%;
     cursor: pointer;
 }
@@ -453,47 +459,47 @@ header {
         top: 51%;
         left: 22%;
     }
-    
+
     .tand2 {
         top: 53%;
         left: 22%;
     }
-    
+
     .tand3 {
         top: 55%;
         left: 23%;
     }
-    
+
     .tand4 {
         top: 56.5%;
         left: 30%;
     }
-    
+
     .tand5 {
         top: 57%;
         left: 41%;
     }
-    
+
     .tand6 {
         top: 57%;
         left: 52%;
     }
-    
+
     .tand7 {
         top: 56.5%;
         left: 62%
     }
-    
+
     .tand8 {
         top: 55%;
         left: 68.5%;
     }
-    
+
     .tand9 {
         top: 53%;
         left: 69%;
     }
-    
+
     .tand10 {
         top: 51%;
         left: 69%;
@@ -503,54 +509,54 @@ header {
         top: 48%;
         left: 22%;
     }
-    
+
     .tand12 {
         top: 46%;
         left: 22%;
     }
-    
+
     .tand13 {
         top: 44%;
         left: 23%;
     }
-    
+
     .tand14 {
         top: 42.5%;
         left: 30%;
     }
-    
+
     .tand15 {
         top: 42%;
         left: 41%;
     }
-    
+
     .tand16 {
         top: 42%;
         left: 52%;
     }
-    
+
     .tand17 {
         top: 42.5%;
         left: 62%
     }
-    
+
     .tand18 {
         top: 44%;
         left: 68.5%;
     }
-    
+
     .tand19 {
         top: 46%;
         left: 69%;
     }
-    
+
     .tand20 {
         top: 48%;
         left: 69%;
     }
 }
 
-/* 12 Pro */
+/* 12, 12 Pro, 13, 13 Pro, 14 en 14 Pro */
 @media all and (max-width: 391px) {
     .krok-container h2 {
         font-size: 100px;
@@ -577,61 +583,111 @@ header {
     }
 
     .tanden img {
-        scale: 0.9;
+        scale: 0.8;
     }
 
     .tand1 {
-        top: 54%;
-        left: 34%;
+        top: 51%;
+        left: 19%;
     }
-    
+
     .tand2 {
-        top: 59%;
-        left: 34%;
+        top: 53%;
+        left: 19%;
     }
-    
+
     .tand3 {
-        top: 64%;
-        left: 34.5%;
+        top: 55%;
+        left: 20%;
     }
-    
+
     .tand4 {
-        top: 68.5%;
-        left: 36.5%;
+        top: 56.5%;
+        left: 27%;
     }
-    
+
     .tand5 {
-        top: 69.5%;
-        left: 53%;
+        top: 57%;
+        left: 38%;
     }
-    
+
     .tand6 {
-        top: 69.5%;
-        left: 44%;
+        top: 57%;
+        left: 49%;
     }
-    
+
     .tand7 {
-        top: 68.5%;
+        top: 56.5%;
         left: 60%
     }
-    
+
     .tand8 {
-        top: 64%;
-        left: 62.5%;
+        top: 55%;
+        left: 66.5%;
     }
-    
+
     .tand9 {
-        top: 59%;
-        left: 63%;
+        top: 53%;
+        left: 67%;
     }
-    
+
     .tand10 {
-        top: 54%;
-        left: 63%;
+        top: 51%;
+        left: 67%;
+    }
+
+    .tand11 {
+        top: 48%;
+        left: 19%;
+    }
+
+    .tand12 {
+        top: 46%;
+        left: 19%;
+    }
+
+    .tand13 {
+        top: 44%;
+        left: 20%;
+    }
+
+    .tand14 {
+        top: 42.5%;
+        left: 27%;
+    }
+
+    .tand15 {
+        top: 42%;
+        left: 38%;
+    }
+
+    .tand16 {
+        top: 42%;
+        left: 49%;
+    }
+
+    .tand17 {
+        top: 42.5%;
+        left: 60%
+    }
+
+    .tand18 {
+        top: 44%;
+        left: 66.5%;
+    }
+
+    .tand19 {
+        top: 46%;
+        left: 67%;
+    }
+
+    .tand20 {
+        top: 48%;
+        left: 67%;
     }
 }
 
-/* SE */
+/* SE, 6, 6s,7 en 8 */
 @media all and (max-width: 376px) {
     .krok-container h2 {
         font-size: 100px;
@@ -658,58 +714,210 @@ header {
     }
 
     .tanden img {
-        scale: 0.9;
+        scale: 0.8;
     }
 
     .tand1 {
-        top: 54%;
-        left: 34%;
+        top: 51%;
+        left: 20%;
     }
-    
+
     .tand2 {
-        top: 59%;
-        left: 34%;
+        top: 53%;
+        left: 20%;
     }
-    
+
     .tand3 {
-        top: 64%;
-        left: 34.5%;
+        top: 55%;
+        left: 21%;
     }
-    
+
     .tand4 {
-        top: 68.5%;
-        left: 36.5%;
+        top: 56.5%;
+        left: 28%;
     }
-    
+
     .tand5 {
-        top: 69.5%;
-        left: 53%;
+        top: 57%;
+        left: 39%;
     }
-    
+
     .tand6 {
-        top: 69.5%;
-        left: 44%;
+        top: 57%;
+        left: 51.5%;
     }
-    
+
     .tand7 {
-        top: 68.5%;
-        left: 60%
+        top: 56.5%;
+        left: 63%
     }
-    
+
     .tand8 {
-        top: 64%;
-        left: 62.5%;
+        top: 55%;
+        left: 69.5%;
     }
-    
+
     .tand9 {
-        top: 59%;
-        left: 63%;
+        top: 53%;
+        left: 70%;
     }
-    
+
     .tand10 {
-        top: 54%;
-        left: 63%;
+        top: 51%;
+        left: 70%;
     }
+
+    .tand11 {
+        top: 48%;
+        left: 20%;
+    }
+
+    .tand12 {
+        top: 46%;
+        left: 20%;
+    }
+
+    .tand13 {
+        top: 44%;
+        left: 21%;
+    }
+
+    .tand14 {
+        top: 42.5%;
+        left: 28%;
+    }
+
+    .tand15 {
+        top: 42%;
+        left: 39%;
+    }
+
+    .tand16 {
+        top: 42%;
+        left: 51.5%;
+    }
+
+    .tand17 {
+        top: 42.5%;
+        left: 62%
+    }
+
+    .tand18 {
+        top: 44%;
+        left: 69.5%;
+    }
+
+    .tand19 {
+        top: 46%;
+        left: 70%;
+    }
+
+    .tand20 {
+        top: 48%;
+        left: 70%;
+    }
+}
+
+/* rad  */
+.rad-container {
+    position: relative;
+}
+
+.arrow {
+    scale: 0.4;
+    position: absolute;
+    left: 48%;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.rad {
+    scale: 0.25;
+    position: absolute;
+    left: -22%;
+    margin-top: -55%;
+}
+
+/* 11 & XR */
+@media all and (max-width: 415px) {
+    .arrow {
+        scale: 0.4;
+        left: 33%;
+        margin-top: -10px;
+    }
+
+    .rad {
+        scale: 0.15;
+        left: -251%;
+        margin-top: -248%;
+    }
+}
+
+/* 12, 12 Pro, 13, 13 Pro, 14 en 14 Pro */
+@media all and (max-width: 391px) {
+    .arrow {
+        scale: 0.4;
+        left: 33%;
+        margin-top: -10px;
+    }
+
+    .rad {
+        scale: 0.15;
+        left: -269%;
+        margin-top: -260%;
+    }
+}
+
+/* SE, 6, 6s,7 en 8 */
+@media all and (max-width: 376px) {
+    .arrow {
+        scale: 0.4;
+        left: 33%;
+        margin-top: -10px;
+    }
+
+    .rad {
+        scale: 0.12;
+        left: -281%;
+        margin-top: -280%;
+    }
+}
+
+
+
+
+
+/* pubquiz  */
+
+
+
+
+
+
+/* dobbelsteen  */
+.dobbel-container {
+    position: relative;
+}
+
+.dobbel1,
+.dobbel2,
+.dobbel3,
+.dobbel4,
+.dobbel5,
+.dobbel6 {
+    margin-top: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.dobbel2,
+.dobbel3,
+.dobbel4,
+.dobbel5,
+.dobbel6 {
+    display: none;
 }
 
 
@@ -718,8 +926,6 @@ header {
 
 footer {
     height: 100px;
-    border-top: solid 5px;
-    border-color: white;
     font-size: 35px;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
