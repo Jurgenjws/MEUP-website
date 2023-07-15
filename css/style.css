@@ -420,7 +420,7 @@ header {
 }
 
 /* 11 & XR */
-@media all and (max-width: 600px) {
+@media all and (max-width: 415px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
@@ -446,62 +446,112 @@ header {
     }
 
     .tanden img {
-        scale: 0.9;
+        scale: 0.8;
     }
 
     .tand1 {
-        top: 54%;
-        left: 34%;
+        top: 51%;
+        left: 22%;
     }
     
     .tand2 {
-        top: 59%;
-        left: 34%;
+        top: 53%;
+        left: 22%;
     }
     
     .tand3 {
-        top: 64%;
-        left: 34.5%;
+        top: 55%;
+        left: 23%;
     }
     
     .tand4 {
-        top: 68.5%;
-        left: 36.5%;
+        top: 56.5%;
+        left: 30%;
     }
     
     .tand5 {
-        top: 69.5%;
-        left: 53%;
+        top: 57%;
+        left: 41%;
     }
     
     .tand6 {
-        top: 69.5%;
-        left: 44%;
+        top: 57%;
+        left: 52%;
     }
     
     .tand7 {
-        top: 68.5%;
-        left: 60%
+        top: 56.5%;
+        left: 62%
     }
     
     .tand8 {
-        top: 64%;
-        left: 62.5%;
+        top: 55%;
+        left: 68.5%;
     }
     
     .tand9 {
-        top: 59%;
-        left: 63%;
+        top: 53%;
+        left: 69%;
     }
     
     .tand10 {
-        top: 54%;
-        left: 63%;
+        top: 51%;
+        left: 69%;
+    }
+
+    .tand11 {
+        top: 48%;
+        left: 22%;
+    }
+    
+    .tand12 {
+        top: 46%;
+        left: 22%;
+    }
+    
+    .tand13 {
+        top: 44%;
+        left: 23%;
+    }
+    
+    .tand14 {
+        top: 42.5%;
+        left: 30%;
+    }
+    
+    .tand15 {
+        top: 42%;
+        left: 41%;
+    }
+    
+    .tand16 {
+        top: 42%;
+        left: 52%;
+    }
+    
+    .tand17 {
+        top: 42.5%;
+        left: 62%
+    }
+    
+    .tand18 {
+        top: 44%;
+        left: 68.5%;
+    }
+    
+    .tand19 {
+        top: 46%;
+        left: 69%;
+    }
+    
+    .tand20 {
+        top: 48%;
+        left: 69%;
     }
 }
 
 /* 12 Pro */
-@media all and (max-width: 500px) {
+@media all and (max-width: 391px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
@@ -582,7 +632,7 @@ header {
 }
 
 /* SE */
-@media all and (max-width: 400px) {
+@media all and (max-width: 376px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
