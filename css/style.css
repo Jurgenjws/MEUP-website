@@ -266,18 +266,20 @@ header {
     opacity: 75%;
 }
 
-.krok-container img {
-    scale: 0.5;
-}
-
 .krokDicht {
     margin: -300px auto 0 auto;
     display: block;
+    scale: 0.5;
 }
 
 .krokOpen {
+    position: relative;
+}
+
+.krokOpenImg {
     margin: -500px auto 0 auto;
     display: none;
+    scale: 0.5;
 }
 
 /* tanden  */
@@ -298,60 +300,122 @@ header {
 .tand7,
 .tand8,
 .tand9,
-.tand10 {
+.tand10,
+.tand11,
+.tand12,
+.tand13,
+.tand14,
+.tand15,
+.tand16,
+.tand17,
+.tand18,
+.tand19,
+.tand20 {
     border: none;
     border-radius: 50%;
     position: absolute;
 }
 
+/* tanden onder  */
 /* desktop  */
 .tand1 {
-    top: 115%;
+    top: 54%;
     left: 34%;
 }
 
 .tand2 {
-    top: 127%;
+    top: 59%;
     left: 34%;
 }
 
 .tand3 {
-    top: 139%;
-    left: 33.5%;
+    top: 64%;
+    left: 34.5%;
 }
 
 .tand4 {
-    top: 149%;
+    top: 68.5%;
     left: 36.5%;
 }
 
 .tand5 {
-    top: 153%;
+    top: 69.5%;
     left: 53%;
 }
 
 .tand6 {
-    top: 153%;
+    top: 69.5%;
     left: 44%;
 }
 
 .tand7 {
-    top: 149%;
+    top: 68.5%;
     left: 60%
 }
 
 .tand8 {
-    top: 139%;
-    left: 63.5%;
+    top: 64%;
+    left: 62.5%;
 }
 
 .tand9 {
-    top: 127%;
+    top: 59%;
     left: 63%;
 }
 
 .tand10 {
-    top: 115%;
+    top: 54%;
+    left: 63%;
+}
+
+/* tanden boven  */
+.tand11 {
+    top: 47%;
+    left: 34%;
+}
+
+.tand12 {
+    top: 42%;
+    left: 34%;
+}
+
+.tand13 {
+    top: 37%;
+    left: 34.5%;
+}
+
+.tand14 {
+    top: 32.5%;
+    left: 36.5%;
+}
+
+.tand15 {
+    top: 31%;
+    left: 53%;
+}
+
+.tand16 {
+    top: 31%;
+    left: 44%;
+}
+
+.tand17 {
+    top: 32.5%;
+    left: 60%
+}
+
+.tand18 {
+    top: 37%;
+    left: 62.5%;
+}
+
+.tand19 {
+    top: 42%;
+    left: 63%;
+}
+
+.tand20 {
+    top: 47%;
     left: 63%;
 }
 
@@ -360,7 +424,7 @@ header {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
-        left: 38%;
+        left: 36%;
     }
 
     .play {
@@ -377,7 +441,7 @@ header {
         margin: -500px 0 0 -600px;
     }
 
-    .krokOpen {
+    .krokOpenImg {
         margin: -850px 0 0 -460px;
     }
 
@@ -386,58 +450,58 @@ header {
     }
 
     .tand1 {
-        top: 84%;
-        left: 22%;
+        top: 54%;
+        left: 34%;
     }
-
+    
     .tand2 {
-        top: 90%;
-        left: 22%;
+        top: 59%;
+        left: 34%;
     }
-
+    
     .tand3 {
-        top: 96%;
-        left: 22.5%;
+        top: 64%;
+        left: 34.5%;
     }
-
+    
     .tand4 {
-        top: 102%;
-        left: 28%;
+        top: 68.5%;
+        left: 36.5%;
     }
-
+    
     .tand5 {
-        top: 103%;
-        left: 39.5%;
+        top: 69.5%;
+        left: 53%;
     }
-
+    
     .tand6 {
-        top: 103%;
-        left: 51.5%;
+        top: 69.5%;
+        left: 44%;
     }
-
+    
     .tand7 {
-        top: 102%;
-        left: 63%
+        top: 68.5%;
+        left: 60%
     }
-
+    
     .tand8 {
-        top: 96%;
-        left: 69%;
+        top: 64%;
+        left: 62.5%;
     }
-
+    
     .tand9 {
-        top: 90%;
-        left: 69%;
+        top: 59%;
+        left: 63%;
     }
-
+    
     .tand10 {
-        top: 84%;
-        left: 69%;
+        top: 54%;
+        left: 63%;
     }
 }
 
 /* 12 Pro */
-@media all and (max-width: 391px) {
+@media all and (max-width: 500px) {
     .krok-container h2 {
         font-size: 100px;
         top: 30%;
@@ -458,88 +522,7 @@ header {
         margin: -500px 0 0 -615px;
     }
 
-    .krokOpen {
-        margin: -850px 0 0 -480px;
-    }
-
-    .tanden img {
-        scale: 1;
-    }
-
-    .tand1 {
-        top: 80%;
-        left: 0;
-    }
-
-    .tand2 {
-        top: 86%;
-        left: 0;
-    }
-
-    .tand3 {
-        top: 93%;
-        left: 0;
-    }
-
-    .tand4 {
-        top: 99%;
-        left: 7%;
-    }
-
-    .tand5 {
-        top: 100%;
-        left: 19%;
-    }
-
-    .tand6 {
-        top: 100%;
-        left: 31%;
-    }
-
-    .tand7 {
-        top: 99%;
-        left: 43%
-    }
-
-    .tand8 {
-        top: 93%;
-        left: 50%;
-    }
-
-    .tand9 {
-        top: 86%;
-        left: 50%;
-    }
-
-    .tand10 {
-        top: 80%;
-        left: 50%;
-    }
-}
-
-/* SE */
-@media all and (max-width: 376px) {
-    .krok-container h2 {
-        font-size: 100px;
-        top: 30%;
-        left: 38%;
-    }
-
-    .play {
-        width: 75px;
-        height: 75px;
-        margin-left: 40%;
-    }
-
-    .krok-container img {
-        scale: 0.2;
-    }
-
-    .krokDicht {
-        margin: -500px 0 0 -615px;
-    }
-
-    .krokOpen {
+    .krokOpenImg {
         margin: -850px 0 0 -480px;
     }
 
@@ -548,53 +531,134 @@ header {
     }
 
     .tand1 {
-        top: 80%;
-        left: 0;
+        top: 54%;
+        left: 34%;
     }
-
+    
     .tand2 {
-        top: 86%;
-        left: 0;
+        top: 59%;
+        left: 34%;
     }
-
+    
     .tand3 {
-        top: 93%;
-        left: 0;
+        top: 64%;
+        left: 34.5%;
     }
-
+    
     .tand4 {
-        top: 99%;
-        left: 7%;
+        top: 68.5%;
+        left: 36.5%;
     }
-
+    
     .tand5 {
-        top: 100%;
-        left: 19%;
+        top: 69.5%;
+        left: 53%;
     }
-
+    
     .tand6 {
-        top: 100%;
-        left: 31%;
+        top: 69.5%;
+        left: 44%;
     }
-
+    
     .tand7 {
-        top: 99%;
-        left: 43%
+        top: 68.5%;
+        left: 60%
     }
-
+    
     .tand8 {
-        top: 93%;
-        left: 50%;
+        top: 64%;
+        left: 62.5%;
     }
-
+    
     .tand9 {
-        top: 86%;
-        left: 50%;
+        top: 59%;
+        left: 63%;
+    }
+    
+    .tand10 {
+        top: 54%;
+        left: 63%;
+    }
+}
+
+/* SE */
+@media all and (max-width: 400px) {
+    .krok-container h2 {
+        font-size: 100px;
+        top: 30%;
+        left: 38%;
     }
 
+    .play {
+        width: 75px;
+        height: 75px;
+        margin-left: 40%;
+    }
+
+    .krok-container img {
+        scale: 0.2;
+    }
+
+    .krokDicht {
+        margin: -500px 0 0 -615px;
+    }
+
+    .krokOpenImg {
+        margin: -850px 0 0 -480px;
+    }
+
+    .tanden img {
+        scale: 0.9;
+    }
+
+    .tand1 {
+        top: 54%;
+        left: 34%;
+    }
+    
+    .tand2 {
+        top: 59%;
+        left: 34%;
+    }
+    
+    .tand3 {
+        top: 64%;
+        left: 34.5%;
+    }
+    
+    .tand4 {
+        top: 68.5%;
+        left: 36.5%;
+    }
+    
+    .tand5 {
+        top: 69.5%;
+        left: 53%;
+    }
+    
+    .tand6 {
+        top: 69.5%;
+        left: 44%;
+    }
+    
+    .tand7 {
+        top: 68.5%;
+        left: 60%
+    }
+    
+    .tand8 {
+        top: 64%;
+        left: 62.5%;
+    }
+    
+    .tand9 {
+        top: 59%;
+        left: 63%;
+    }
+    
     .tand10 {
-        top: 80%;
-        left: 50%;
+        top: 54%;
+        left: 63%;
     }
 }
 
