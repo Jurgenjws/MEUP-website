@@ -14,81 +14,344 @@ function selecteerWillekeurigedobbel() {
     return dobbelArray[Math.floor(Math.random() * dobbelArray.length)];
 }
 
-dobbelBtn.addEventListener('click', function () {
+dobbel1.addEventListener('click', function () {
+    willekeurigedobbel = selecteerWillekeurigedobbel();
+    console.log(willekeurigedobbel);
+
+    const angle = Math.floor(Math.random() * 360) * 10 + 10000;
+
+    if (willekeurigedobbel === "dobbel1") {
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
+    }
+});
+
+dobbel2.addEventListener('click', function () {
     willekeurigedobbel = selecteerWillekeurigedobbel();
     console.log(willekeurigedobbel);
 
     const angle = Math.floor(Math.random() * 360) * 10 + 1000;
 
-    dobbelBtn.style.transform = `rotate(${angle}deg)`;
-    // dobbel1.style.transform = `rotate(${angle}deg)`;
-    // dobbel2.style.transform = `rotate(${angle}deg)`;
-    // dobbel3.style.transform = `rotate(${angle}deg)`;
-    // dobbel4.style.transform = `rotate(${angle}deg)`;
-    // dobbel5.style.transform = `rotate(${angle}deg)`;
-    // dobbel6.style.transform = `rotate(${angle}deg)`;
-    dobbelBtn.style.transition = `transform 2s ease-out`;
-    // dobbel1.style.transform = `transform 2s ease-out`;
-    // dobbel2.style.transform = `transform 2s ease-out`;
-    // dobbel3.style.transform = `transform 2s ease-out`;
-    // dobbel4.style.transform = `transform 2s ease-out`;
-    // dobbel5.style.transform = `transform 2s ease-out`;
-    // dobbel6.style.transform = `transform 2s ease-out`;
+    if (willekeurigedobbel === "dobbel1") {
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
+    }
+});
 
+dobbel3.addEventListener('click', function () {
+    willekeurigedobbel = selecteerWillekeurigedobbel();
+    console.log(willekeurigedobbel);
 
+    const angle = Math.floor(Math.random() * 360) * 10 + 1000;
 
     if (willekeurigedobbel === "dobbel1") {
-        dobbel1.style.display = 'block'
-        dobbel2.style.display = 'none'
-        dobbel3.style.display = 'none'
-        dobbel4.style.display = 'none'
-        dobbel5.style.display = 'none'
-        dobbel6.style.display = 'none'
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
     }
+});
 
-    if (willekeurigedobbel === "dobbel2") {
-        dobbel1.style.display = 'none'
-        dobbel2.style.display = 'block'
-        dobbel3.style.display = 'none'
-        dobbel4.style.display = 'none'
-        dobbel5.style.display = 'none'
-        dobbel6.style.display = 'none'
+dobbel4.addEventListener('click', function () {
+    willekeurigedobbel = selecteerWillekeurigedobbel();
+    console.log(willekeurigedobbel);
+
+    const angle = Math.floor(Math.random() * 360) * 10 + 1000;
+
+    if (willekeurigedobbel === "dobbel1") {
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
     }
+});
 
-    if (willekeurigedobbel === "dobbel3") {
-        dobbel1.style.display = 'none'
-        dobbel2.style.display = 'none'
-        dobbel3.style.display = 'block'
-        dobbel4.style.display = 'none'
-        dobbel5.style.display = 'none'
-        dobbel6.style.display = 'none'
+dobbel5.addEventListener('click', function () {
+    willekeurigedobbel = selecteerWillekeurigedobbel();
+    console.log(willekeurigedobbel);
+
+    const angle = Math.floor(Math.random() * 360) * 10 + 1000;
+
+    if (willekeurigedobbel === "dobbel1") {
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
     }
+});
 
-    if (willekeurigedobbel === "dobbel4") {
-        dobbel1.style.display = 'none'
-        dobbel2.style.display = 'none'
-        dobbel3.style.display = 'none'
-        dobbel4.style.display = 'block'
-        dobbel5.style.display = 'none'
-        dobbel6.style.display = 'none'
+dobbel6.addEventListener('click', function () {
+    willekeurigedobbel = selecteerWillekeurigedobbel();
+    console.log(willekeurigedobbel);
+
+    const angle = Math.floor(Math.random() * 360) * 10 + 1000;
+
+    if (willekeurigedobbel === "dobbel1") {
+        dobbel1.style.top = '50%'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel1.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel2") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '50%'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel2.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel3") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '50%'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel3.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel4") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '50%'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '-1000px'
+        dobbel4.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel5") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '50%'
+        dobbel6.style.top = '-1000px'
+        dobbel5.style.transform = `rotate(${angle}deg)`;
+    } else if (willekeurigedobbel === "dobbel6") {
+        dobbel1.style.top = '-1000px'
+        dobbel2.style.top = '-1000px'
+        dobbel3.style.top = '-1000px'
+        dobbel4.style.top = '-1000px'
+        dobbel5.style.top = '-1000px'
+        dobbel6.style.top = '50%'
+        dobbel6.style.transform = `rotate(${angle}deg)`;
     }
-
-    if (willekeurigedobbel === "dobbel5") {
-        dobbel1.style.display = 'none'
-        dobbel2.style.display = 'none'
-        dobbel3.style.display = 'none'
-        dobbel4.style.display = 'none'
-        dobbel5.style.display = 'block'
-        dobbel6.style.display = 'none'
-    }
-
-    if (willekeurigedobbel === "dobbel6") {
-        dobbel1.style.display = 'none'
-        dobbel2.style.display = 'none'
-        dobbel3.style.display = 'none'
-        dobbel4.style.display = 'none'
-        dobbel5.style.display = 'none'
-        dobbel6.style.display = 'block'
-    }
-
 });

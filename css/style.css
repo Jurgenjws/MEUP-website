@@ -7,7 +7,7 @@ header {
     height: 200px;
     background-color: #1f1f1f;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .nav-header {
@@ -98,8 +98,8 @@ header {
 
 main {
     height: 100vh;
+    padding-top: 50px;
     border-top: solid 5px;
-    border-bottom: solid 5px;
     border-color: white;
 }
 
@@ -121,7 +121,7 @@ main {
 
 .intro-rad,
 .intro-krok,
-.intro-pubquiz {
+.intro-dobbelsteen {
     width: 100%;
     max-height: 300px;
     margin-bottom: 50px;
@@ -130,7 +130,7 @@ main {
 
 .intro-rad a,
 .intro-krok a,
-.intro-pubquiz a {
+.intro-dobbelsteen a {
     font-size: 35px;
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
@@ -139,7 +139,7 @@ main {
 
 .intro-rad p,
 .intro-krok p,
-.intro-pubquiz p {
+.intro-dobbelsteen p {
     width: 50%;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
@@ -150,7 +150,7 @@ main {
 
     .intro-rad p,
     .intro-krok p,
-    .intro-pubquiz p {
+    .intro-dobbelsteen p {
         font-size: 20px;
     }
 }
@@ -159,7 +159,7 @@ main {
 
     .intro-rad p,
     .intro-krok p,
-    .intro-pubquiz p {
+    .intro-dobbelsteen p {
         font-size: 15px;
     }
 }
@@ -173,15 +173,15 @@ main {
 
 .intro-krok img {
     scale: 0.18;
-    top: -500px;
+    top: -550px;
     right: -600px;
     z-index: -1;
 }
 
-.intro-pubquiz img {
-    scale: 0.2;
-    top: -250px;
-    right: -600px;
+.intro-dobbelsteen img {
+    scale: 0.5;
+    top: -50px;
+    right: 0;
     z-index: -1;
 }
 
@@ -194,8 +194,8 @@ main {
         scale: 0.15;
     }
 
-    .intro-pubquiz img {
-        scale: 0.18;
+    .intro-dobbelsteen img {
+        scale: 0.5;
     }
 }
 
@@ -210,29 +210,29 @@ main {
         top: -600px;
     }
 
-    .intro-pubquiz img {
-        scale: 0.15;
-        top: -350px;
+    .intro-dobbelsteen img {
+        scale: 0.4;
+        top: -100px;
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 850px) {
     .intro-rad img {
         scale: 0.06;
         top: -1100px;
-        right: -1100px;
+        right: -1200px;
     }
 
     .intro-krok img {
         scale: 0.09;
         top: -550px;
-        right: -650px;
+        right: -750px;
     }
 
-    .intro-pubquiz img {
-        scale: 0.1;
-        top: -300px;
-        right: -650px;
+    .intro-dobbelsteen img {
+        scale: 0.3;
+        top: -80px;
+        right: -150px;
     }
 }
 
@@ -266,6 +266,7 @@ main {
     margin-top: 50px;
     margin-left: 46%;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .play:hover {
@@ -907,9 +908,13 @@ main {
 .dobbel6 {
     margin-top: 300px;
     position: absolute;
-    top: 50%;
     left: 50%;
     translate: -50% -50%;
+    transition: 1s ease-out;
+}
+
+.dobbel1 {
+    top: 50%;
 }
 
 .dobbel2,
@@ -917,16 +922,15 @@ main {
 .dobbel4,
 .dobbel5,
 .dobbel6 {
-    display: none;
+    top: -1000px;
 }
 
-
-
-
-
-footer {
-    height: 100px;
-    font-size: 35px;
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
+@media all and (max-width: 415px) {
+   .dobbel1, .dobbel2,
+.dobbel3,
+.dobbel4,
+.dobbel5,
+.dobbel6 {
+    scale: 0.6;
+}
 }
