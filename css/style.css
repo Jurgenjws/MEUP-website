@@ -848,9 +848,9 @@ main {
     }
 
     .rad {
-        scale: 0.15;
-        left: -251%;
-        margin-top: -248%;
+        scale: 0.12;
+        left: -251.5%;
+        margin-top: -253%;
     }
 }
 
@@ -858,14 +858,14 @@ main {
 @media all and (max-width: 391px) {
     .arrow {
         scale: 0.4;
-        left: 33%;
+        left: 27%;
         margin-top: -10px;
     }
 
     .rad {
-        scale: 0.15;
-        left: -269%;
-        margin-top: -260%;
+        scale: 0.12;
+        left: -275%;
+        margin-top: -270%;
     }
 }
 
@@ -878,9 +878,9 @@ main {
     }
 
     .rad {
-        scale: 0.12;
+        scale: 0.1;
         left: -281%;
-        margin-top: -280%;
+        margin-top: -285%;
     }
 }
 
